@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>
+  Welcome to {{ title }}!
+</h1>
+<nav>
+  <a routerLink="/add" routerLinkActive="active">Add Component</a>
+  | 
+  <a routerLink="/comp/2" routerLinkActive="active">Comp 2</a>
+  |
+  <a routerLink="/comp--2" routerLinkActive="active">Unknown file...</a>
+</nav>
+<div style="text-align:center">
+
+</div>
+<h2>Concise Group Web Api ...</h2>
+<p>{{"Testing interpolation: " + 2+2 }}</p>
+<p>{{statement  }}</p>
+
+<h2>Message from Server </h2>
+<app-add-serve></app-add-serve>
+
+<h2>Message from Component Part 1:  </h2>
+<app-comp2></app-comp2>
+
+<h2>Message from Component Part 2:  </h2>
+<app-comp2></app-comp2>
+
+<router-outlet></router-outlet>
